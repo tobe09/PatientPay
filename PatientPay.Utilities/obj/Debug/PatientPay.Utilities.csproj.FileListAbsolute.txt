@@ -1,0 +1,5 @@
+C:\Users\NEPTUNEDEVELOPMENTX\Documents\Visual Studio 2015\Projects\PatientPay\PatientPay.Utilities\bin\Debug\PatientPay.Utilities.dll
+C:\Users\NEPTUNEDEVELOPMENTX\Documents\Visual Studio 2015\Projects\PatientPay\PatientPay.Utilities\bin\Debug\PatientPay.Utilities.pdb
+C:\Users\NEPTUNEDEVELOPMENTX\Documents\Visual Studio 2015\Projects\PatientPay\PatientPay.Utilities\obj\Debug\PatientPay.Utilities.csproj.CoreCompileInputs.cache
+C:\Users\NEPTUNEDEVELOPMENTX\Documents\Visual Studio 2015\Projects\PatientPay\PatientPay.Utilities\obj\Debug\PatientPay.Utilities.dll
+C:\Users\NEPTUNEDEVELOPMENTX\Documents\Visual Studio 2015\Projects\PatientPay\PatientPay.Utilities\obj\Debug\PatientPay.Utilities.pdb

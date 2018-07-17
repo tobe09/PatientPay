@@ -1,0 +1,96 @@
+﻿@model PatientPay.BusinessObjects.FindPayment.PaymentBreakdownInfo
+@using PatientPay.MvcWebApp.Extensions;
+
+<div class="row">
+    @{
+        ViewBag.Heading = "Patient Payment History";
+        ViewBag.Icon = "info";
+    }
+    <br />
+
+    <div class="table-responsive info-table">
+        <table class="table table-condensed" id="report">
+            <caption><h4>Generated Report for Posted Payment (PATIENT ID: @Model.PatientData.PatientGivenId)</h4></caption>
+            <tr>
+                <td>Username:</td>
+                <td colspan="3"> @Html.DisplayFor(model => model.PatientData.LastName)</td>
+            </tr>
+            @{
+                string fullname = $"{Model.PatientData.LastName}, {Model.PatientData.FirstName} ";
+                fullname += Model.PatientData.MiddleName == null ? "" : Model.PatientData.MiddleName;
+            }
+            <tr>
+                <td>Full Name:</td>
+                <td colspan="3">@fullname</td>
+            </tr>
+            <tr>
+                <td>Email Address:</td>
+                <td colspan="3">@Model.PatientData.Email</td>
+            </tr>
+            <tr>
+                <td>Phone Number:</td>
+                <td colspan="3">@("0" + Model.PatientData.PhoneNo)</td>
+            </tr>
+            @if (Model.PatientData.PhoneNo2 != null)
+            {
+                <tr>
+                    <td>Alternate Phone Number:</td>
+                    <td colspan="3">@("0" + Model.PatientData.PhoneNo2)</td>
+                </tr>
+            }
+            <tr>
+                <td>Home Address</td>
+                <td colspan="3">@Model.PatientData.HomeAddress</td>
+            </tr>
+            <tr>
+                <td>Created By:</td>
+                <td colspan="3">@Model.CreatingAdminName</td>
+            </tr>
+            <tr>
+                <td>Created Date:</td>
+                <td colspan="3">@Html.GetDisplayDateString(Model.PatientData.CreatedDate)</td>
+            </tr>
+            <tr>
+                <td><b>Total Amount:</b></td>
+                <td colspan="3"><b>&#8358;@Model.Breakdown.Aggregate(0.0, (i, a) => i + a.Amount)</b></td>
+            </tr>
+            <tr>
+                <td colspan="4"></td>
+            </tr>
+            @if (Model.Breakdown.Count > 0)
+            {
+                <tr>
+                    <td colspan="4"><b>Break Down of Payment</b></td>
+                </tr>
+                <tr>
+                    <td><b>S/N</b></td>
+                    <td><b>Amount(&#8358;)</b></td>
+                    <td><b>Reason</b></td>
+                    <td><b>Date created</b></td>
+                </tr>
+                for (int i = 0; i < Model.Breakdown.Count; i++)
+                {
+                    var record = Model.Breakdown[i];
+                    <tr>
+                        <td>@(i + 1)</td>
+                        <td>@record.Amount</td>
+                        <td>@record.Description</td>
+                        <td>@Html.GetDisplayDateString(record.CreatedDate)</td>
+                    </tr>
+                }
+            }
+            else
+            {
+                <tr><td colspan="4">Patient has not made any payment</td></tr>
+            }
+        </table>
+        <div class="col-md-2"></div>
+        <div class="col-md-6">
+            <button class="my-button btn btn-default" id="print"><b>Print</b></button>
+        </div>
+    </div>
+</div>
+
+@section Scripts {
+    <script type="text/javascript" src="@Url.Content("~/Scripts/paymentHistory.js")"></script>
+}

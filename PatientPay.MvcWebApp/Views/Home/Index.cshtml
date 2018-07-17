@@ -1,0 +1,127 @@
+﻿@model PatientPay.BusinessObjects.AdminLogin.Admin
+@using PatientPay.BusinessObjects.AdminLogin;
+@using PatientPay.MvcWebApp.Constants;
+
+@{
+    Layout = null;
+}
+
+<!DOCTYPE html>
+
+<html>
+<head>
+    <meta lang="en" />
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="icon" href="/favicon.ico">
+    <title>Patient Payment System</title>
+    @Styles.Render("~/Content/css")
+</head>
+
+<body>
+    <div class="container-fluid">
+
+        <header class="row header">
+            <div class="col-md-6">
+                <span id="timerSpan"></span>
+            </div>
+            <div class="col-md-6">
+                <div class="pull-right">
+                    @{
+                        var admin = Session[Values.AdminKey];
+                        string username = admin == null ? "Femi" : ((Admin)admin).Username;
+                    }
+                    <a class="link user-icon" onclick="showAdminDetails();" data-toggle="modal" data-target="#adminModal">
+                        <i class="glyphicon glyphicon-user top-icon"></i>@username
+                    </a>
+                    <a class="link" href="/AdminLogin/Logout"><i class="glyphicon glyphicon-lock top-icon"></i>Logout</a>
+                </div>
+            </div>
+        </header>
+
+        <div class="container-fluid full-body home">
+            <div class="row">
+                <div class="col-md-12">
+
+                    <h4 class="text-danger">@Html.Raw(TempData[Values.ExceptionMsgKey])</h4>
+                    <br />
+
+                    <h3>Welcome @Model.FirstName</h3>
+                </div>
+            </div>
+            <div class="row">
+                <h4>This Application helps administrators in Patients' registration, posting of payments and generating report of all payments received.</h4><br />
+                <a href="/RegisterPatient/Create" class="col-md-4 text-center text-info first">
+                    <div>
+                        <h3 class="info"><i class="glyphicon glyphicon-user icons"></i><br /><span>Patients Registration</span></h3>
+                        <p class="info">Ensure Patient details provided are entered accurately.</p>
+                    </div>
+                </a>
+                <a href="/PostPayment/SavePayment" class="col-md-4 text-center text-info second">
+                    <div>
+                        <h3 class="info"><i class="glyphicon glyphicon-briefcase icons"></i><br /><span>Post Payments</span></h3>
+                        <p class="info">Post all payments here.</p>
+                    </div>
+                </a>
+                <a href="/FindPayment/Search" class="col-md-4 text-center text-info third">
+                    <div>
+                        <h3 class="info"><i class="glyphicon glyphicon-user icons"></i><br /><span>Find Payments</span></h3>
+                        <p class="info">Find all registered payments by search.</p>
+                    </div>
+                </a>
+            </div>
+        </div>
+
+        <div class="row">
+            <footer class="col-md-12 text-center">
+                <small>&copy;2018 </small> Today's Solution Limited<br />
+            </footer>
+        </div>
+
+        <div class="modal fade" id="adminModal" aria-labelledby="adminProfileLabel" role="dialog">
+            <div class="modal-dialog">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <h3 class="modal-title" id="adminProfileLabel">
+                            Administrator Profile
+                            <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                <span aria-hidden="true">&times;</span>
+                            </button>
+                        </h3>
+                    </div>
+                    <div class="modal-body">
+                        <div> <span id="profileMsg"></span> </div>
+                        <div>
+                            First Name: <span id="firstNameProf"></span>
+                        </div>
+                        <div>
+                            Surname: <span id="lastNameProf"></span>
+                        </div>
+                        <div>
+                            Middle name: <span id="middleNameProf"></span>
+                        </div>
+                        <div>
+                            Phone number: <span id="phoneNoProf"></span>
+                        </div>
+                        <div>
+                            Email Address: <span id="emailProf"></span>
+                        </div>
+                        <div>
+                            Home Address: <span id="homeAddressProf"></span>
+                        </div>
+                        <div>
+                            Created By: <span> Super User </span>
+                        </div>
+                    </div>
+                    <div class="modal-footer">
+                        <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    @Scripts.Render("~/bundles/js")
+</body>
+
+</html>

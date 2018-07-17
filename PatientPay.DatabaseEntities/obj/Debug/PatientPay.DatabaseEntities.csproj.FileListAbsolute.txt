@@ -1,0 +1,9 @@
+C:\Users\NEPTUNEDEVELOPMENTX\Documents\Visual Studio 2015\Projects\PatientPay\PatientPay.DatabaseEntities\bin\Debug\PatientPay.DatabaseEntities.dll
+C:\Users\NEPTUNEDEVELOPMENTX\Documents\Visual Studio 2015\Projects\PatientPay\PatientPay.DatabaseEntities\bin\Debug\PatientPay.DatabaseEntities.pdb
+C:\Users\NEPTUNEDEVELOPMENTX\Documents\Visual Studio 2015\Projects\PatientPay\PatientPay.DatabaseEntities\bin\Debug\PatientPay.BusinessObjects.dll
+C:\Users\NEPTUNEDEVELOPMENTX\Documents\Visual Studio 2015\Projects\PatientPay\PatientPay.DatabaseEntities\bin\Debug\PatientPay.BusinessObjects.pdb
+C:\Users\NEPTUNEDEVELOPMENTX\Documents\Visual Studio 2015\Projects\PatientPay\PatientPay.DatabaseEntities\obj\Debug\PatientPay.DatabaseEntities.csprojAssemblyReference.cache
+C:\Users\NEPTUNEDEVELOPMENTX\Documents\Visual Studio 2015\Projects\PatientPay\PatientPay.DatabaseEntities\obj\Debug\PatientPay.DatabaseEntities.csproj.CoreCompileInputs.cache
+C:\Users\NEPTUNEDEVELOPMENTX\Documents\Visual Studio 2015\Projects\PatientPay\PatientPay.DatabaseEntities\obj\Debug\PatientPay.DatabaseEntities.csproj.CopyComplete
+C:\Users\NEPTUNEDEVELOPMENTX\Documents\Visual Studio 2015\Projects\PatientPay\PatientPay.DatabaseEntities\obj\Debug\PatientPay.DatabaseEntities.dll
+C:\Users\NEPTUNEDEVELOPMENTX\Documents\Visual Studio 2015\Projects\PatientPay\PatientPay.DatabaseEntities\obj\Debug\PatientPay.DatabaseEntities.pdb

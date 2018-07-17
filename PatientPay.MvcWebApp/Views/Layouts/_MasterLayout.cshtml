@@ -1,0 +1,111 @@
+﻿<!DOCTYPE html>
+@using PatientPay.MvcWebApp.Constants;
+@using PatientPay.BusinessObjects.AdminLogin;
+<html>
+<head>
+    <meta lang="en" />
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="icon" href="/favicon.ico">
+    @{ string title = ViewBag.Title ?? "Patient Payment System";}
+    <title>@title</title>
+    @Styles.Render("~/Content/css")
+    @RenderSection("Styles", required: false)
+</head>
+
+<body>
+    <div class="container-fluid full-body">
+        <header class="row header">
+            <div class="col-md-6">
+                <span id="timerSpan"></span>
+            </div>
+            <div class="col-md-6">
+                <div class="pull-right">
+                    @{
+                        var admin = Session[Values.AdminKey];
+                        string username = admin == null ? "Femi" : ((Admin)admin).Username;
+                    }
+                    <a class="link user-icon" onclick="showAdminDetails();" data-toggle="modal" data-target="#adminModal">
+                        <i class="glyphicon glyphicon-user top-icon"></i>@username
+                    </a>
+                    <a class="link" href="/AdminLogin/Logout"><i class="glyphicon glyphicon-lock top-icon"></i>Logout</a>
+                </div>
+            </div>
+        </header>
+
+        <div class="row content-body">
+            <aside class="col-md-3 sidebar">
+                <div class="panel panel-default">
+                    <div class="panel-heading">
+                        <a class="link panel-link" href="/Home/Index"><i class="glyphicon glyphicon-home"></i><span>Home</span></a><br />
+                    </div>
+                    <div class="panel-heading">
+                        <a class="link panel-link" href="/RegisterPatient/Create"><i class="glyphicon glyphicon-user"></i><span>Register Patient</span></a><br />
+                    </div>
+                    <div class="panel-heading">
+                        <a class="link panel-link" href="/PostPayment/SavePayment"><i class="glyphicon glyphicon-briefcase"></i><span>Post Payment</span></a><br />
+                    </div>
+                    <div class="panel-heading">
+                        <a class="link panel-link" href="/FindPayment/Search"><i class="glyphicon glyphicon-search"></i><span>Find All Payments</span></a>
+                    </div>
+                </div>
+            </aside>
+            <content class="col-md-9">
+                <h4><span class="glyphicon glyphicon-@ViewBag.Icon user-icon"></span><i>@ViewBag.Heading</i></h4>
+                <hr />
+
+                @RenderBody()
+            </content>
+        </div>
+
+        <div class="row">
+            <footer class="col-md-12 text-center">
+                <small>&copy;2018 </small> Today's Solution Limited<br />
+            </footer>
+        </div>
+    </div>
+
+    <div class="modal fade" id="adminModal" aria-labelledby="adminProfileLabel" role="dialog">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="adminProfileLabel">Administrator Profile</h5>
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                        <span aria-hidden="true">&times;</span>
+                    </button>
+                    <div> <span id="profileMsg"></span> </div>
+                </div>
+                <div class="modal-body">
+                    <div>
+                        First Name: <span id="firstNameProf"></span>
+                    </div>
+                    <div>
+                        Surname: <span id="lastNameProf"></span>
+                    </div>
+                    <div>
+                        Middle name: <span id="middleNameProf"></span>
+                    </div>
+                    <div>
+                        Phone number: <span id="phoneNoProf"></span>
+                    </div>
+                    <div>
+                        Email Address: <span id="emailProf"></span>
+                    </div>
+                    <div>
+                        Home Address: <span id="homeAddressProf"></span>
+                    </div>
+                    <div>
+                        Created By: <span> Super User </span>
+                    </div>
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    @Scripts.Render("~/bundles/js")
+    @RenderSection("Scripts", required: false)
+</body>
+</html>

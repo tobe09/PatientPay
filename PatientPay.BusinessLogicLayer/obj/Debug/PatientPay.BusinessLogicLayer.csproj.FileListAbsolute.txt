@@ -1,0 +1,75 @@
+C:\Users\Neptune\Desktop\Tobe\PatientPay\PatientPay.BusinessLogicLayer\bin\Debug\PatientPay.BusinessLogicLayer.exe.config
+C:\Users\Neptune\Desktop\Tobe\PatientPay\PatientPay.BusinessLogicLayer\bin\Debug\PatientPay.BusinessLogicLayer.exe
+C:\Users\Neptune\Desktop\Tobe\PatientPay\PatientPay.BusinessLogicLayer\bin\Debug\PatientPay.BusinessLogicLayer.pdb
+C:\Users\Neptune\Desktop\Tobe\PatientPay\PatientPay.BusinessLogicLayer\bin\Debug\AutoMapper.dll
+C:\Users\Neptune\Desktop\Tobe\PatientPay\PatientPay.BusinessLogicLayer\bin\Debug\EntityFramework.dll
+C:\Users\Neptune\Desktop\Tobe\PatientPay\PatientPay.BusinessLogicLayer\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\Neptune\Desktop\Tobe\PatientPay\PatientPay.BusinessLogicLayer\bin\Debug\EntityFramework.SqlServerCompact.dll
+C:\Users\Neptune\Desktop\Tobe\PatientPay\PatientPay.BusinessLogicLayer\bin\Debug\PatientPay.BusinessObjects.dll
+C:\Users\Neptune\Desktop\Tobe\PatientPay\PatientPay.BusinessLogicLayer\bin\Debug\PatientPay.DataAccessLayer.dll
+C:\Users\Neptune\Desktop\Tobe\PatientPay\PatientPay.BusinessLogicLayer\bin\Debug\System.Data.SqlServerCe.dll
+C:\Users\Neptune\Desktop\Tobe\PatientPay\PatientPay.BusinessLogicLayer\bin\Debug\System.ValueTuple.dll
+C:\Users\Neptune\Desktop\Tobe\PatientPay\PatientPay.BusinessLogicLayer\bin\Debug\PatientPay.Utilities.dll
+C:\Users\Neptune\Desktop\Tobe\PatientPay\PatientPay.BusinessLogicLayer\bin\Debug\PatientPay.BusinessObjects.pdb
+C:\Users\Neptune\Desktop\Tobe\PatientPay\PatientPay.BusinessLogicLayer\bin\Debug\PatientPay.DataAccessLayer.pdb
+C:\Users\Neptune\Desktop\Tobe\PatientPay\PatientPay.BusinessLogicLayer\bin\Debug\AutoMapper.pdb
+C:\Users\Neptune\Desktop\Tobe\PatientPay\PatientPay.BusinessLogicLayer\bin\Debug\AutoMapper.xml
+C:\Users\Neptune\Desktop\Tobe\PatientPay\PatientPay.BusinessLogicLayer\bin\Debug\EntityFramework.xml
+C:\Users\Neptune\Desktop\Tobe\PatientPay\PatientPay.BusinessLogicLayer\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\Neptune\Desktop\Tobe\PatientPay\PatientPay.BusinessLogicLayer\bin\Debug\EntityFramework.SqlServerCompact.xml
+C:\Users\Neptune\Desktop\Tobe\PatientPay\PatientPay.BusinessLogicLayer\bin\Debug\System.ValueTuple.xml
+C:\Users\Neptune\Desktop\Tobe\PatientPay\PatientPay.BusinessLogicLayer\bin\Debug\PatientPay.Utilities.pdb
+C:\Users\Neptune\Desktop\Tobe\PatientPay\PatientPay.BusinessLogicLayer\obj\Debug\PatientPay.BusinessLogicLayer.csprojResolveAssemblyReference.cache
+C:\Users\Neptune\Desktop\Tobe\PatientPay\PatientPay.BusinessLogicLayer\obj\Debug\PatientPay.BusinessLogicLayer.exe
+C:\Users\Neptune\Desktop\Tobe\PatientPay\PatientPay.BusinessLogicLayer\obj\Debug\PatientPay.BusinessLogicLayer.pdb
+C:\Users\NEPTUNEDEVELOPMENTX\Desktop\PatientPay\PatientPay.BusinessLogicLayer\bin\Debug\PatientPay.BusinessLogicLayer.exe.config
+C:\Users\NEPTUNEDEVELOPMENTX\Desktop\PatientPay\PatientPay.BusinessLogicLayer\bin\Debug\PatientPay.BusinessLogicLayer.exe
+C:\Users\NEPTUNEDEVELOPMENTX\Desktop\PatientPay\PatientPay.BusinessLogicLayer\bin\Debug\PatientPay.BusinessLogicLayer.pdb
+C:\Users\NEPTUNEDEVELOPMENTX\Desktop\PatientPay\PatientPay.BusinessLogicLayer\bin\Debug\AutoMapper.dll
+C:\Users\NEPTUNEDEVELOPMENTX\Desktop\PatientPay\PatientPay.BusinessLogicLayer\bin\Debug\EntityFramework.dll
+C:\Users\NEPTUNEDEVELOPMENTX\Desktop\PatientPay\PatientPay.BusinessLogicLayer\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\NEPTUNEDEVELOPMENTX\Desktop\PatientPay\PatientPay.BusinessLogicLayer\bin\Debug\EntityFramework.SqlServerCompact.dll
+C:\Users\NEPTUNEDEVELOPMENTX\Desktop\PatientPay\PatientPay.BusinessLogicLayer\bin\Debug\PatientPay.BusinessObjects.dll
+C:\Users\NEPTUNEDEVELOPMENTX\Desktop\PatientPay\PatientPay.BusinessLogicLayer\bin\Debug\PatientPay.DataAccessLayer.dll
+C:\Users\NEPTUNEDEVELOPMENTX\Desktop\PatientPay\PatientPay.BusinessLogicLayer\bin\Debug\System.Data.SqlServerCe.dll
+C:\Users\NEPTUNEDEVELOPMENTX\Desktop\PatientPay\PatientPay.BusinessLogicLayer\bin\Debug\System.ValueTuple.dll
+C:\Users\NEPTUNEDEVELOPMENTX\Desktop\PatientPay\PatientPay.BusinessLogicLayer\bin\Debug\PatientPay.Utilities.dll
+C:\Users\NEPTUNEDEVELOPMENTX\Desktop\PatientPay\PatientPay.BusinessLogicLayer\bin\Debug\PatientPay.BusinessObjects.pdb
+C:\Users\NEPTUNEDEVELOPMENTX\Desktop\PatientPay\PatientPay.BusinessLogicLayer\bin\Debug\PatientPay.DataAccessLayer.pdb
+C:\Users\NEPTUNEDEVELOPMENTX\Desktop\PatientPay\PatientPay.BusinessLogicLayer\bin\Debug\AutoMapper.pdb
+C:\Users\NEPTUNEDEVELOPMENTX\Desktop\PatientPay\PatientPay.BusinessLogicLayer\bin\Debug\AutoMapper.xml
+C:\Users\NEPTUNEDEVELOPMENTX\Desktop\PatientPay\PatientPay.BusinessLogicLayer\bin\Debug\EntityFramework.xml
+C:\Users\NEPTUNEDEVELOPMENTX\Desktop\PatientPay\PatientPay.BusinessLogicLayer\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\NEPTUNEDEVELOPMENTX\Desktop\PatientPay\PatientPay.BusinessLogicLayer\bin\Debug\EntityFramework.SqlServerCompact.xml
+C:\Users\NEPTUNEDEVELOPMENTX\Desktop\PatientPay\PatientPay.BusinessLogicLayer\bin\Debug\System.ValueTuple.xml
+C:\Users\NEPTUNEDEVELOPMENTX\Desktop\PatientPay\PatientPay.BusinessLogicLayer\bin\Debug\PatientPay.Utilities.pdb
+C:\Users\NEPTUNEDEVELOPMENTX\Desktop\PatientPay\PatientPay.BusinessLogicLayer\obj\Debug\PatientPay.BusinessLogicLayer.csprojResolveAssemblyReference.cache
+C:\Users\NEPTUNEDEVELOPMENTX\Desktop\PatientPay\PatientPay.BusinessLogicLayer\obj\Debug\PatientPay.BusinessLogicLayer.exe
+C:\Users\NEPTUNEDEVELOPMENTX\Desktop\PatientPay\PatientPay.BusinessLogicLayer\obj\Debug\PatientPay.BusinessLogicLayer.pdb
+C:\Users\NEPTUNEDEVELOPMENTX\Documents\Visual Studio 2015\Projects\PatientPay\PatientPay.BusinessLogicLayer\bin\Debug\PatientPay.BusinessLogicLayer.dll.config
+C:\Users\NEPTUNEDEVELOPMENTX\Documents\Visual Studio 2015\Projects\PatientPay\PatientPay.BusinessLogicLayer\bin\Debug\PatientPay.BusinessLogicLayer.dll
+C:\Users\NEPTUNEDEVELOPMENTX\Documents\Visual Studio 2015\Projects\PatientPay\PatientPay.BusinessLogicLayer\bin\Debug\PatientPay.BusinessLogicLayer.pdb
+C:\Users\NEPTUNEDEVELOPMENTX\Documents\Visual Studio 2015\Projects\PatientPay\PatientPay.BusinessLogicLayer\bin\Debug\AutoMapper.dll
+C:\Users\NEPTUNEDEVELOPMENTX\Documents\Visual Studio 2015\Projects\PatientPay\PatientPay.BusinessLogicLayer\bin\Debug\EntityFramework.dll
+C:\Users\NEPTUNEDEVELOPMENTX\Documents\Visual Studio 2015\Projects\PatientPay\PatientPay.BusinessLogicLayer\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\NEPTUNEDEVELOPMENTX\Documents\Visual Studio 2015\Projects\PatientPay\PatientPay.BusinessLogicLayer\bin\Debug\PatientPay.BusinessObjects.dll
+C:\Users\NEPTUNEDEVELOPMENTX\Documents\Visual Studio 2015\Projects\PatientPay\PatientPay.BusinessLogicLayer\bin\Debug\PatientPay.DataAccessLayer.dll
+C:\Users\NEPTUNEDEVELOPMENTX\Documents\Visual Studio 2015\Projects\PatientPay\PatientPay.BusinessLogicLayer\bin\Debug\System.Data.SqlServerCe.dll
+C:\Users\NEPTUNEDEVELOPMENTX\Documents\Visual Studio 2015\Projects\PatientPay\PatientPay.BusinessLogicLayer\bin\Debug\System.ValueTuple.dll
+C:\Users\NEPTUNEDEVELOPMENTX\Documents\Visual Studio 2015\Projects\PatientPay\PatientPay.BusinessLogicLayer\bin\Debug\PatientPay.DatabaseEntities.dll
+C:\Users\NEPTUNEDEVELOPMENTX\Documents\Visual Studio 2015\Projects\PatientPay\PatientPay.BusinessLogicLayer\bin\Debug\PatientPay.Utilities.dll
+C:\Users\NEPTUNEDEVELOPMENTX\Documents\Visual Studio 2015\Projects\PatientPay\PatientPay.BusinessLogicLayer\bin\Debug\PatientPay.BusinessObjects.pdb
+C:\Users\NEPTUNEDEVELOPMENTX\Documents\Visual Studio 2015\Projects\PatientPay\PatientPay.BusinessLogicLayer\bin\Debug\PatientPay.DataAccessLayer.pdb
+C:\Users\NEPTUNEDEVELOPMENTX\Documents\Visual Studio 2015\Projects\PatientPay\PatientPay.BusinessLogicLayer\bin\Debug\PatientPay.DataAccessLayer.dll.config
+C:\Users\NEPTUNEDEVELOPMENTX\Documents\Visual Studio 2015\Projects\PatientPay\PatientPay.BusinessLogicLayer\bin\Debug\AutoMapper.pdb
+C:\Users\NEPTUNEDEVELOPMENTX\Documents\Visual Studio 2015\Projects\PatientPay\PatientPay.BusinessLogicLayer\bin\Debug\AutoMapper.xml
+C:\Users\NEPTUNEDEVELOPMENTX\Documents\Visual Studio 2015\Projects\PatientPay\PatientPay.BusinessLogicLayer\bin\Debug\EntityFramework.xml
+C:\Users\NEPTUNEDEVELOPMENTX\Documents\Visual Studio 2015\Projects\PatientPay\PatientPay.BusinessLogicLayer\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\NEPTUNEDEVELOPMENTX\Documents\Visual Studio 2015\Projects\PatientPay\PatientPay.BusinessLogicLayer\bin\Debug\System.ValueTuple.xml
+C:\Users\NEPTUNEDEVELOPMENTX\Documents\Visual Studio 2015\Projects\PatientPay\PatientPay.BusinessLogicLayer\bin\Debug\PatientPay.DatabaseEntities.pdb
+C:\Users\NEPTUNEDEVELOPMENTX\Documents\Visual Studio 2015\Projects\PatientPay\PatientPay.BusinessLogicLayer\bin\Debug\PatientPay.Utilities.pdb
+C:\Users\NEPTUNEDEVELOPMENTX\Documents\Visual Studio 2015\Projects\PatientPay\PatientPay.BusinessLogicLayer\obj\Debug\PatientPay.BusinessLogicLayer.csprojAssemblyReference.cache
+C:\Users\NEPTUNEDEVELOPMENTX\Documents\Visual Studio 2015\Projects\PatientPay\PatientPay.BusinessLogicLayer\obj\Debug\PatientPay.BusinessLogicLayer.csproj.CoreCompileInputs.cache
+C:\Users\NEPTUNEDEVELOPMENTX\Documents\Visual Studio 2015\Projects\PatientPay\PatientPay.BusinessLogicLayer\obj\Debug\PatientPay.BusinessLogicLayer.csproj.CopyComplete
+C:\Users\NEPTUNEDEVELOPMENTX\Documents\Visual Studio 2015\Projects\PatientPay\PatientPay.BusinessLogicLayer\obj\Debug\PatientPay.BusinessLogicLayer.dll
+C:\Users\NEPTUNEDEVELOPMENTX\Documents\Visual Studio 2015\Projects\PatientPay\PatientPay.BusinessLogicLayer\obj\Debug\PatientPay.BusinessLogicLayer.pdb

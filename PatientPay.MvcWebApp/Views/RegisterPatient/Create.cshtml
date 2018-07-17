@@ -1,0 +1,48 @@
+﻿@model PatientPay.MvcWebApp.ViewModels.RegisterPatientViewModel
+
+
+@using (Html.BeginForm())
+{
+    @Html.AntiForgeryToken()
+
+    <div class="row">
+        @{
+            ViewBag.Heading = "Register Patient";
+            ViewBag.Icon = "user";
+        }
+        <br />
+        @Html.Partial("_MessagePartial")
+
+        <div class="form-group col-lg-6">
+            @Html.EditorFor(model => model.Username, new { htmlAttributes = new { @class = "form-control", Placeholder = "Username", required = "required" } })
+        </div>
+        <div class="form-group col-lg-6">
+            @Html.EditorFor(model => model.FirstName, new { htmlAttributes = new { @class = "form-control", Placeholder = "First Name", required = "required" } })
+        </div>
+        <div class="form-group col-lg-6">
+            @Html.EditorFor(model => model.LastName, new { htmlAttributes = new { @class = "form-control", Placeholder = "Surname", required = "required" } })
+        </div>
+        <div class="form-group col-lg-6">
+            @Html.EditorFor(model => model.MiddleName, new { htmlAttributes = new { @class = "form-control", Placeholder = "Other Name" } })
+        </div>
+        <div class="form-group col-lg-6">
+            @Html.EditorFor(model => model.Email, new { htmlAttributes = new { @class = "form-control", Placeholder = "Email Address", required = "required" } })
+        </div>
+        <div class="form-group col-lg-6">
+            @Html.EditorFor(model => model.PhoneNo, new { htmlAttributes = new { @class = "form-control", Placeholder = "Phone Number", maxlength = "11", required = "required" } })
+        </div>
+        <div class="form-group col-lg-6">
+            @Html.EditorFor(model => model.PhoneNo2, new { htmlAttributes = new { @class = "form-control", Placeholder = "Alternate Phone Number", maxlength = "11" } })
+        </div>
+        <div class="form-group col-lg-6">
+            <textarea class="form-control" cols="7" placeholder="Home Address" id="HomeAddress" , name="HomeAddress" required>@(Model == null ? "" : Model.HomeAddress)</textarea>
+        </div>
+
+        <div class="col-lg-3"></div>
+
+        <div class="col-lg-6 btn-div">
+            <button type="submit" class="my-button btn btn-default">Register</button>
+        </div>
+
+    </div>
+}

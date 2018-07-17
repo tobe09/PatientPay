@@ -1,0 +1,6 @@
+C:\Users\NEPTUNEDEVELOPMENTX\Documents\Visual Studio 2015\Projects\PatientPay\PatientPay.BusinessObjects\bin\Debug\PatientPay.BusinessObjects.dll
+C:\Users\NEPTUNEDEVELOPMENTX\Documents\Visual Studio 2015\Projects\PatientPay\PatientPay.BusinessObjects\bin\Debug\PatientPay.BusinessObjects.pdb
+C:\Users\NEPTUNEDEVELOPMENTX\Documents\Visual Studio 2015\Projects\PatientPay\PatientPay.BusinessObjects\obj\Debug\PatientPay.BusinessObjects.csproj.CoreCompileInputs.cache
+C:\Users\NEPTUNEDEVELOPMENTX\Documents\Visual Studio 2015\Projects\PatientPay\PatientPay.BusinessObjects\obj\Debug\PatientPay.BusinessObjects.dll
+C:\Users\NEPTUNEDEVELOPMENTX\Documents\Visual Studio 2015\Projects\PatientPay\PatientPay.BusinessObjects\obj\Debug\PatientPay.BusinessObjects.pdb
+C:\Users\NEPTUNEDEVELOPMENTX\Documents\Visual Studio 2015\Projects\PatientPay\PatientPay.BusinessObjects\obj\Debug\PatientPay.BusinessObjects.csprojAssemblyReference.cache

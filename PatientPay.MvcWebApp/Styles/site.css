@@ -1,0 +1,151 @@
+﻿body {
+    background-color: beige;
+}
+
+.my-show {
+    display: block;
+}
+
+.my-hide{
+    display: none;
+}
+
+.user-icon {
+    margin-right: 1.0em;
+}
+    .user-icon > div {
+        margin-right: 2.0em;
+    }
+
+.top-icon {
+    margin-right: 0.2em;
+}
+
+.panel-link {
+    text-decoration: none;
+    color: #000;
+}
+    .panel-link > i {
+        margin-right: 2.0em;
+    }
+
+.my-button {
+    background: #ff1a1a;
+    border: 0em;
+    color: #fff;
+    width: 100%;
+    margin-top: 10px;
+}
+
+aside.sidebar {
+    background-color: #262626;
+}
+
+div.panel-group {
+    background-color: #fff;
+}
+
+.header {
+    background-color: #262626;
+    padding: 1.0em;
+}
+
+div.pull-right > a.link {
+    color: #fff;
+}
+
+.input-group-btn:last-child > .btn, .input-group-btn:last-child > .btn-group {
+    background: #ff1a1a;
+}
+
+a.view {
+    color: #ff1a1a;
+}
+
+.btn-div{
+    margin-top: 30px;
+}
+
+.entries{
+    margin-top: 10px;
+}
+
+.search-info {
+    margin-top: 30px;
+}
+
+.info-table {
+    margin-left: 40px;
+    margin-bottom: 10px;
+}
+
+.full-body{
+    position: relative;
+}
+
+.content-body {
+    padding-bottom: 40px;
+    min-height: 65vh;
+}
+
+footer {
+    position: absolute;
+    bottom: 0;
+    height: 200px;
+    background: #222;
+    padding-top: 90px;
+    font-size: 20px;
+    color: aqua;
+}
+
+.login {
+    background-image: url('/Images/bg_img_login.jpg')
+}
+
+.login-top {
+    background: #f2f2f2;
+    padding: 2.0em;
+}
+    .login-top > h4 {
+        margin-right: 0.2em;
+        font-size: 1.5em;
+    }
+
+.login-row {
+    margin-top: 2.0em;
+    padding: 1.0em;
+}
+
+#timerSpan{
+    font-size: 15px;
+    color: aqua;
+}
+
+.home {
+    margin-bottom: 6.0em;
+    background-color: #f1f1f3;
+    min-height: 55vh;
+}
+    .home .first {
+        background-color: #0073e6;
+        padding: 2.0em;
+    }
+
+    .home .second {
+        background-color: #66ccff;
+        padding: 2.0em;
+    }
+
+    .home .third {
+        background-color: #cc0000;
+        padding: 2.0em;
+    }
+
+    .home a {
+        text-decoration: none;
+        color: #fff;
+    }
+
+#report {
+    width: 80%;
+}
